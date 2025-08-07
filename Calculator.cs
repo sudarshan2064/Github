@@ -6,7 +6,7 @@ public class Calculator{
         double a = Convert.ToDouble(Console.ReadLine());
 
         Console.Write("Enter operator (+, -, *, /): ");
-        string op = Console.ReadLine();
+        string? op = Console.ReadLine();
 
         Console.Write("Enter second number: ");
         double b = Convert.ToDouble(Console.ReadLine());
