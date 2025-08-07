@@ -7,7 +7,8 @@ using System;
     {
         Console.WriteLine("Hello, world!");
         Console.WriteLine("Welcome to your first C# project.");
-            
-            
+
+        Calculator cal = new Calculator();
+        cal.Run();
         }
 }
