@@ -12,9 +12,16 @@ using System;
         cal.Run();
 
         Vote v = new Vote();
-        v.Check()
+        v.Check();
 
-        Factorial fa =new Factorial();
+        Factorial fa = new Factorial();
         fa.Calculate();
-        }
+
+        Table tr = new Table();
+        tr.Calculate();
+
+        Table tar = new Table();
+        tar.Calculate();
+
+    }
 }
