@@ -23,5 +23,8 @@ using System;
         Table tar = new Table();
         tar.Calculate();
 
+        Banking br = new Banking();
+        br.Action();
+
     }
 }
