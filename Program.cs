@@ -10,5 +10,11 @@ using System;
 
         Calculator cal = new Calculator();
         cal.Run();
+
+        Vote v = new Vote();
+        v.Check()
+
+        Factorial fa =new Factorial();
+        fa.Calculate();
         }
 }
