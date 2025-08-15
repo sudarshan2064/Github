@@ -8,7 +8,7 @@ public class Armstrong
         int num = Convert.ToInt32(Console.ReadLine());
         int x = num;
         int c = 0;
-        while (x>1)
+        while (x > 1)
         {
             int a = x % 10;
             c = c * 10 + a;
@@ -19,3 +19,14 @@ public class Armstrong
 
     }
 }
+
+/* 
+output:
+dotnet run
+Enter a number to check if it is armstrong or not
+3454543
+Given number is Armstrong
+PS D:\All Folders\C#\Github\NewProject> dotnet run
+Enter a number to check if it is armstrong or not
+23332223
+Given number is not armstrong */
