@@ -20,3 +20,11 @@ public class Lcm
         }
 
     }
+
+/* Output:
+dotnet run
+Enter two numbers to find their LCM
+12
+26
+ The LCM of given numbers is  156
+PS D:\All Folders\C#\Github\NewProject>  */
