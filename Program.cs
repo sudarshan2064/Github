@@ -31,9 +31,13 @@ using System;
 
         Hcf hcf = new Hcf();
         hcf.Calculate();
+
         Lcm l = new Lcm();
         l.Calculate();
 
+        Prime prie = new Prime();
+        prie.Calculate();
+        prie.Check();
 
     }
 }
